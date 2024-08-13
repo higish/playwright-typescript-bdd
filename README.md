@@ -217,7 +217,7 @@ mockExpectedText:
 ### Setup Steps
 1. Clone the Repository:
 ```
-git clone https://gitlab.com/modivcare/qa/playwright-typescript-bdd
+git clone https://github.com/higish/playwright-typescript-bdd.git
 cd playwright-typescript-bdd
 ```
 2. Install Dependencies:
