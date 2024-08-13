@@ -1,0 +1,2 @@
+invalidPasswordError: |-
+  Login failed. Too many failed attempts will put a temporary lock on your account.

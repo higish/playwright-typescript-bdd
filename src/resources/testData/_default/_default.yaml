@@ -1,0 +1,48 @@
+---
+mockStringData:
+  testCaseId:
+  scenario:
+  emailAddress:
+  emailAddress1:
+  emailAddress2:
+  password: Test112test112@
+  password1:
+  password2:
+  age:
+  message:
+  message1:
+  message2:
+  message3:
+  errorMessage:
+  dob: '02-27-1996'
+  firstName: NewRd
+  lastName: Drisk
+  phoneNumber:
+  phoneNumber1: 2025550194
+  phoneNumber2:
+  invalidPhoneNumber:
+  streetAddress:
+  female: female
+  male: male
+  name: NewRd Drisk
+  city:
+  state:
+  zipCode: 84041
+  yesValue: "Yes"
+  noValue: "No"
+  option1:
+  option2:
+  option3:
+  option4:
+  option5:
+  option6:
+  option7:
+  option8:
+  option9:
+  option10:
+mockExpectedText:
+  expectedText1:
+  expectedText2:
+  expectedText3:
+  expectedText4:
+  expectedText5:

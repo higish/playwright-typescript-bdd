@@ -1,0 +1,26 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaVersion": 2021,
+    "sourceType": "module"
+  },
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "error",                 // Detect and remove unused variables to keep the code clean.
+    "@typescript-eslint/prefer-readonly": "error",                // Encourage using 'readonly' for properties that should not be modified after initialization.
+    "@typescript-eslint/strict-boolean-expressions": "error",     // Enforce stricter boolean expression rules for clearer conditions.
+    "@typescript-eslint/require-await": "error",                  // Require 'async' functions to always return a Promise for proper handling of asynchronous operations.
+    "@typescript-eslint/promise-function-async": "error",         // Ensure functions returning promises are marked as 'async' to prevent potential issues with promises.
+    "@typescript-eslint/no-misused-promises": "error",            // Detect and prevent misuse of promises to avoid unexpected behavior in async operations.
+    "@typescript-eslint/no-floating-promises": "error",           // Disallow unhandled promises to ensure proper error handling in asynchronous code.
+    "@typescript-eslint/no-unnecessary-type-assertion": "error",  // Disallow against unnecessary type assertions (type casts) for cleaner and safer code.
+    "@typescript-eslint/no-unnecessary-condition": "error",       // Detect and error about unnecessary conditions to simplify and clarify code logic.
+    "@typescript-eslint/no-unnecessary-qualifier": "error"        // Disallow unnecessary qualifiers and imports to streamline code.
+  }
+}

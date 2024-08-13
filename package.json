@@ -1,0 +1,43 @@
+{
+  "name": "playwright-cucumber-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "ts-node src/main/TestRunner.ts",
+    "test:failed": "cucumber-js -p rerun output/@rerun.txt",
+    "prettier": "npx prettier --write .",
+    "lint": "eslint . --ext .ts",
+    "lint:check": "eslint . --max-warnings=0",
+    "lint:fix": "eslint . --fix",
+    "postinstall": "npx playwright install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.4.0",
+    "@playwright/test": "^1.45.0",
+    "@types/js-yaml": "^4.0.9",
+    "@types/jsonpath": "^0.2.4",
+    "@typescript-eslint/eslint-plugin": "^7.7.1",
+    "@typescript-eslint/parser": "^7.7.1",
+    "axios": "^1.6.8",
+    "cucumber-html-reporter": "^7.1.1",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "js-yaml": "^4.1.0",
+    "jsonpath": "^1.1.1",
+    "log4js": "^6.9.1",
+    "polytype": "^0.17.0",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "yaml": "^2.4.1"
+  },
+  "dependencies": {
+    "safe-stable-stringify": "^2.4.3"
+  }
+}

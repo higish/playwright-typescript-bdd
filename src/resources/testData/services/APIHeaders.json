@@ -1,0 +1,25 @@
+{
+  "tripcareGetUserWithUserCode": {
+    "headers": {
+      "accept": "application/json",
+      "Content-Type": "application/json"
+    },
+    "endpoint": "/authentication-service/lgtcUser",
+    "params": {
+      "applicationCode": 5,
+      "userCode": "{userCode}"
+    },
+    "body": "bodyDynamic"
+  },
+  "tripcareNewUserRegistration": {
+    "headers": {
+      "accept": "application/json",
+      "Content-Type": "application/json"
+    },
+    "endpoint": "/authentication-service/lgtcUser/signUp",
+    "params": {
+      "bypassVerifyCode": true
+    },
+    "body": "bodyDynamic"
+  }
+}

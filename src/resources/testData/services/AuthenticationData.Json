@@ -1,0 +1,20 @@
+{
+  "tripcareUserRegister": {
+    "firstName": "Casey",
+    "lastName": "Test",
+    "email": "randomEmail",
+    "password": "Test112test112@",
+    "verifyPassword":  "Test112test112@",
+    "applicationCode": 5,
+    "skipCognitoSetUp": true
+  },
+  "userRegisterWithDifferentProfileValues": {
+    "firstName": "firstName",
+    "lastName": "lastName",
+    "email": "randomEmail",
+    "password": "Test112test112@",
+    "verifyPassword":  "Test112test112@",
+    "applicationCode": 5,
+    "skipCognitoSetUp": true
+  }
+}

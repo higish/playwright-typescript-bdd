@@ -1,0 +1,33 @@
+{
+  "default": {
+    "formatOptions": {
+      "snippetInterface": "async-await"
+    },
+    "paths": ["src/resources/features/"],
+    "dryRun": false,
+    "require": ["src/main/step_definitions/*.ts", "src/main/hooks/Hooks.ts"],
+    "requireModule": ["ts-node/register"],
+    "strict": true,
+    "format": [
+      "json:output/cucumber-report.json",
+      "rerun:output/rerun.txt",
+      "junit:output/junit.xml",
+      "html:output/index.html"
+    ]
+  },
+  "rerun": {
+    "formatOptions": {
+      "snippetInterface": "async-await"
+    },
+    "paths": ["src/resources/features/"],
+    "dryRun": false,
+    "require": ["src/main/step_definitions/*.ts", "src/main/hooks/Hooks.ts"],
+    "requireModule": ["ts-node/register"],
+    "strict": true,
+    "format": [
+      "json:output/cucumber-report.json",
+      "rerun:output/rerun.txt",
+      "junit:output/junit.xml"
+    ]
+  }
+}

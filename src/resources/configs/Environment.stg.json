@@ -1,0 +1,9 @@
+{
+  "environment": "stg",
+  "app": {
+    "baseUri": "https://ui-tst.msa.logisticare.com"
+  },
+  "api": {
+    "baseUri": "https://services-qa.business-services.modivcare.cloud"
+  }
+}
