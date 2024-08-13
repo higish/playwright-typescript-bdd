@@ -238,9 +238,3 @@ npm test
 ```
 5. View Reports:
     - After the tests complete, view the generated report in the output directory. Open the index.html file in a browser to see detailed test results, including screenshots of any failures.
-
-## Support Contacts
-- Nikunj Patel: npatel@higi.com
-- Hamza Gayurzoda: agayurzoda@higi.com
-- Gagan Pandey: gpandey@deerhold.com
-- Ramesh Khatri: rkhatri@deerhold.org   
